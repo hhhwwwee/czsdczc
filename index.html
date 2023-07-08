@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/01ef352644.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Radio</title>
+</head>
+<body>
+    <section id="navbar">
+        <div class="navbar container-lg">
+            <div class="logo">
+                <h3>Radio.</h3>
+            </div>
+            <div class="navbar-items">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#aboutus">About us</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#travel">Journals</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>                 
+                </ul>
+            </div>
+            <div class="search-box">
+                <button class="btn-search"><i class="fas fa-search"></i></button>
+                <input type="text" class="input-search" placeholder="Type to Search...">
+            </div>  
+        </div>
+    </section>
+
+
+
+    <section id="header">
+        <div class="header-img"><img src="./img/Rectangle 9.png"></div>
+        
+        <div class="header-content container-lg">
+            
+            <h1>The New Way To Plan</h1>
+            <h1>Your Next Adventure</h1>
+            <div class="explore"><div class="dash"></div><span class="explore2">Explore the colorful World</span> </div>
+             
+            <div class="btn-explore">
+                <span class="tag"><a href="https://en.wikipedia.org/wiki/List_of_most_visited_palaces_and_monuments" target="_blank">Explore World</a></span>
+                <span class="btn-icon"><i class="fa-solid fa-compass"></i></span>
+             </div>
+        </div> 
+    </section>
+
+    <section id="aboutus">
+        <div class="about-content">
+            <div class="text-box">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt blanditiis velit asperiores. Fugit recusandae sequi corporis ex et enim!Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi autem quod atque veniam, eligendi praesentium vero ex blanditiis doloribus labore?</p>
+                <div class="population">
+                    <div class="popul-count">
+                        <h3>255</h3>
+                        <span>Complete Trips</span>
+                    </div>
+                    <div class="p1"></div>
+                    <div class="popul-count">
+                        <h3>177</h3>
+                        <span>Tour Guide</span>
+                    </div>
+                    <div class="p2"></div>
+                    <div class="popul-count">
+                        <h3>301</h3>
+                        <span>Destination</span>
+                    </div>
+                </div>
+                <div class="btn-explore">
+                    <span class="tag"><a href="https://en.wikipedia.org/wiki/List_of_most_visited_palaces_and_monuments" target="_blank">Explore World</a></span>
+                    <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                 </div>
+            </div>
+            <div class="image-box"><img src="./img/Rectangle 16.png"></div>
+        </div>
+    </section>
+    <section id="discover">
+        <div class="disc">
+            <h3>Discover The Most Engaging Places</h3>
+            <p>Let's see the world with us with you and your family</p>
+            <div class="disc-places container-lg">
+                <div class="places place1">
+                    <div class="places-img">
+                        <div class="img1"><img src="./img/Rectangle 21.png" alt=""></div>
+                        <div class="places-text">
+                            <h3>Norway</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-explore">
+                        <span class="tag"><a href="https://en.wikipedia.org/wiki/Norway" target="_blank">Explore World</a></span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                     </div>
+                </div>
+                <div class="places place2">
+                    <div class="places-img">
+                        <div class="img2"><img src="./img/Rectangle 22.png" alt=""></div>
+                        <div class="places-text">
+                            <h3>London</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-explore">
+                        <span class="tag"><a href="https://en.wikipedia.org/wiki/london" target="_blank">Explore World</a></span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                     </div>
+                </div>
+                <div class="places place3">
+                    <div class="places-img">
+                        <div class="img3"><img src="./img/Rectangle 23.png" alt=""></div>
+                        <div class="places-text">
+                            <h3>Japan</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, atque.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-explore">
+                        <span class="tag"><a href="https://en.wikipedia.org/wiki/japan" target="_blank">Explore World</a></span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                     </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <section id="blogs">
+        <h3>Latest On The Blogs</h3>
+        <p>We Want To Help You Travel Better</p>
+        <div class="blog-content container-lg">
+            <div class="blog1 blogdata">
+                <div class="blog-img">
+                    <div class="blog-img1"><img src="./img/Rectangle 1.png" alt=""></div>
+                </div>
+                <div class="blog-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda repellendus perspiciatis.</p>
+                </div>
+            </div>
+
+            <div class="blog1 blogdata">
+                <div class="blog-img">
+                    <div class="blog-img2"><img src="./img/Rectangle 2.png" alt=""></div>
+                </div>
+                <div class="blog-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda repellendus perspiciatis.</p>
+                </div>
+            </div>
+
+            <div class="blog1 blogdata">
+                <div class="blog-img">
+                    <div class="blog-img3"><img src="./img/Rectangle 3.png" alt=""></div>
+                </div>
+                <div class="blog-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda repellendus perspiciatis.</p>
+                </div>
+            </div>
+            <div class="blog1 blogdata">
+                <div class="blog-img">
+                    <div class="blog-img4"><img src="./img/Rectangle 4.png" alt=""></div>
+                </div>
+                <div class="blog-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda repellendus perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    
+    <section id="travel">
+        <div class="travel-head">
+            <h3>The Travel Journals</h3>
+            <p>A journals is place to new record things you have discovered while exploring various places to visit</p>
+        </div>
+        <div class="travel-content container-lg">
+            <div class="travel-box box1">
+                <div class="travel-img">
+                    <div class="ttimg"><img src="./img/Rectangle 60.png" alt=""></div>
+                </div>
+                <div class="travel-text">
+                    <div class="t-img">
+                        <img src="./img/Ellipse 1.png" alt="">
+                        <span>By Tony</span>
+                    </div>
+                    <div class="t-text">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing.</h4>
+                        <div class="date">
+                            <span>18 April 2023</span>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-box box2">
+                <div class="travel-img">
+                    <div class="ttimg"><img src="./img/Rectangle 62.png" alt=""></div>
+                </div>
+                <div class="travel-text">
+                    <div class="t-img">
+                        <img src="./img/Ellipse 2.png" alt="">
+                        <span>By Tony</span>
+                    </div>
+                    <div class="t-text">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing.</h4>
+                        <div class="date">
+                            <span>18 April 2023</span>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-box box3">
+                <div class="travel-img">
+                   <div class="ttimg"><img src="./img/Rectangle 64.png" alt=""></div> 
+                </div>
+                <div class="travel-text">
+                    <div class="t-img">
+                        <img src="./img/Ellipse 3.png" alt="">
+                        <span>By Tony</span>
+                    </div>
+                    <div class="t-text">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing.</h4>
+                        <div class="date">
+                            <span>18 April 2023</span>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-box box4">
+                <div class="travel-img">
+                    <div class="ttimg"><img src="./img/Rectangle 68.png" alt=""></div>
+                </div>
+                <div class="travel-text">
+                    <div class="t-img">
+                        <img src="./img/Ellipse 4.png" alt="">
+                        <span>By Tony</span>
+                    </div>
+                    <div class="t-text">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing.</h4>
+                        <div class="date">
+                            <span>18 April 2023</span>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-box box5">
+                <div class="travel-img">
+                    <div class="ttimg"><img src="./img/Rectangle 71.png" alt=""></div>
+                </div>
+                <div class="travel-text">
+                    <div class="t-img">
+                        <img src="./img/Ellipse 5.png" alt="">
+                        <span>By Tony</span>
+                    </div>
+                    <div class="t-text">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing.</h4>
+                        <div class="date">
+                            <span>18 April 2023</span>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-box box6">
+                <div class="travel-img">
+                    <div class="ttimg"><img src="./img/Rectangle 73.png" alt=""></div>
+                </div>
+                <div class="travel-text">
+                    <div class="t-img">
+                        <img src="./img/Ellipse 6.png" alt="">
+                        <span>By Tony</span>
+                    </div>
+                    <div class="t-text">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing.</h4>
+                        <div class="date">
+                            <span>18 April 2023</span>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="btn-explore">
+            <span class="tag"><a href="https://en.wikipedia.org/wiki/Journal" target="_blank">View All Journals</a></span>
+            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+         </div>
+    </section>
+    <section id="mask">
+        <div class="mask1 container-lg">
+            <img src="./img/wp11875583-desktop-abstract-winter-wallpapers.jpg">
+        </div>
+    </section>
+    
+
+
+    <section id="gallery">
+        <div class="gallery-img container-lg">
+            <div class="gallery-box">
+                <a href="https://en.wikipedia.org/wiki/United_States" target="_blank">
+                    <div class="box-img">
+                    <img src="./img/Rectangle 81.png">
+                    <div class="box-text">
+                        <h3>Sky</h3>
+                        <span>America</span>
+                    </div>
+               
+                </div>
+            </a>
+              
+            </div>
+
+            <div class="gallery-box">
+                <a href="https://en.wikipedia.org/wiki/japan" target="_blank">
+                    <div class="box-img">
+                        <img src="./img/Rectangle 80.png">
+                        <div class="box-text">
+                            <h3>Beach</h3>
+                            <span>Japan</span>
+                        </div>
+                    </div>
+                    </a>
+            </div>
+      
+            <div class="gallery-box">
+                <a href="https://en.wikipedia.org/wiki/Indonesia" target="_blank">
+                    <div class="box-img">
+                        <img src="./img/Rectangle 84.png">
+                        <div class="box-text tt1">
+                            <h3>Bali</h3>
+                            <span>Indonesia</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="gallery-box">
+                <a href="https://en.wikipedia.org/wiki/china" target="_blank">
+                    <div class="box-img">
+                        <img src="./img/Rectangle 86.png">
+                        <div class="box-text">
+                            <h3>Chi Tai</h3>
+                            <span>China</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+       
+            <div class="gallery-box">
+                <a href="https://en.wikipedia.org/wiki/india" target="_blank">
+                    <div class="box-img">
+                        <img src="./img/Rectangle 87.png">
+                        <div class="box-text">
+                            <h3>Taj Mahal</h3>
+                            <span>India</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-content container-lg">
+            <div class="contact-t">
+                <h3>Contact a Travel <br> Researcher</h3>
+                <p>We always aim to reply within 24 hours.</p>
+            </div>
+            <div class="call">
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                <h3>Call us</h3>
+                <span>03000000000</span> <br>
+                <span>We are online now</span>
+            </div>
+
+                <div class="email">
+                    <a href="./email.html">
+                        <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+                        <h3>Send us <br>An Equiry </h3>
+                    </a>
+                       
+                </div>
+     
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer-content">
+            <h4>Radio.</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+            </div>
+            <p>Cheap Romantic Vacations. Many people feel that there is a limited amount of abundance, wealth, or chances to succeed in life.</p>
+            <div class="navbar-items">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#aboutus">About us</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#travel">Journals</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="contact">Contact</a></li>                 
+                </ul>
+            </div>
+            <div class="copyright">
+                <span>© 2022 All Right Reserved</span>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>

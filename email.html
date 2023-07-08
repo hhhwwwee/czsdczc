@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/01ef352644.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Radio</title>
+</head>
+<body>
+    <section id="navbar">
+        <div class="navbar container-lg">
+            <div class="logo">
+                <h3>Radio.</h3>
+            </div>
+            <div class="navbar-items">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>        
+                </ul>
+            </div>
+            <div class="search-box">
+                <button class="btn-search"><i class="fas fa-search"></i></button>
+                <input type="text" class="input-search" placeholder="Type to Search...">
+            </div>  
+        </div>
+    </section>
+    <section id="email">
+        <div class="email-content container-lg">
+            <div class="forum">
+                <form action="">
+                    <input type="text" id="myInput" onfocus="movePlaceholder()" onblur="restorePlaceholder()">
+                    <label for="myInput" id="myLabel">Full Name</label>
+
+                    <input type="email" id="myInput2" onfocus="movePlaceholder2()" onblur="restorePlaceholder2()">
+                    <label for="myInput2" id="myLabel2">Email Address</label>
+                    <textarea id="myInput3" onfocus="movePlaceholder3()" onblur="restorePlaceholder3()"></textarea>
+                    <label for="myInput3" id="myLabel3">Message</label>
+                    <div class="submit-btn">
+                        <div class="bn1">
+                            <input type="submit" value="Submit">
+                        </div>
+                       
+                        <div class="bn2">
+                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="display2">
+                <div class="display">
+                
+                </div>
+            </div>
+            <div class="display3">
+                <h3>Get in touch</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="icon">
+                    <span><i class="fa-regular fa-envelope" style="color: #ffffff;"></i>ABC@gmail.com</span>
+                    <span><i class="fa-solid fa-phone" style="color: #ffffff;"></i>03000000000</span>
+                    <span><i class="fa-solid fa-globe" style="color: #ffffff;"></i>www.radio.com</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="footer">
+        <div class="footer-content">
+            <h4>Radio.</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+            </div>
+            <p>Cheap Romantic Vacations. Many people feel that there is a limited amount of abundance, wealth, or chances to succeed in life.</p>
+            <div class="copyright">
+                <span>© 2022 All Right Reserved</span>
+            </div>
+        </div>
+    </section>
+    <script>
+        function movePlaceholder() {
+            var label = document.getElementById('myLabel');
+            label.style.top = '0%';
+            label.style.fontSize = '10px';
+            label.style.color = '#E89400';
+        }
+    
+    function restorePlaceholder() {
+        var input = document.getElementById('myInput');
+        var label = document.getElementById('myLabel');
+        
+        if (input.value === '') {
+            label.style.top = '6.9%';
+            label.style.fontSize = '';
+            label.style.color = '';
+        }
+    }
+
+
+    function movePlaceholder2() {
+        var label = document.getElementById('myLabel2');
+        label.style.top = '20.7%';
+        label.style.fontSize = '10px';
+        label.style.color = '#E89400';
+    }
+    
+    function restorePlaceholder2() {
+      var input = document.getElementById('myInput2');
+      var label = document.getElementById('myLabel2');
+    
+      if (input.value === '') {
+        label.style.top = '27.5%';
+        label.style.fontSize = '';
+        label.style.color = '';
+      }
+    }
+    function movePlaceholder3() {
+        var label = document.getElementById('myLabel3');
+        label.style.top = '41.6%';
+        label.style.fontSize = '10px';
+        label.style.color = '#E89400';
+    }
+    
+    function restorePlaceholder3() {
+      var input = document.getElementById('myInput3');
+      var label = document.getElementById('myLabel3');
+    
+      if (input.value === '') {
+        label.style.top = '47%';
+        label.style.fontSize = '';
+        label.style.color = '';
+      }
+    }
+    
+    </script>
+</body>
